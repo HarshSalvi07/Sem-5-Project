@@ -13,15 +13,15 @@ Analyze the json text content extracted from a student's handrwritten notes. Dia
 {data}
 
 [REQUIRED OUTPUT FORMAT]
-### 📊 Conceptual Performance Summary
-* **Identified Strengths**: [What formulas or core conceptual layouts did they write down or structure correctly in their notes?]
-* **Primary Conceptual Gaps**: [What specific underlying mechanisms, subscript variables, or equation relationships are messy, incorrect, or misunderstood?]
+📊 Conceptual Performance Summary
+• Identified Strengths: [What formulas or core conceptual layouts did they write down or structure correctly in their notes?]
+• Primary Conceptual Gaps: [What specific underlying mechanisms, subscript variables, or equation relationships are messy, incorrect, or misunderstood?]
 
-### 🎯 Targeted Learning Roadmap
-1. **Focus Sub-Topic**: [Name of specific physics sub-topic, not a general subject]
-   * **Actionable Next Step**: [What exact problem type, variable mapping, or structural resource should they work on tonight to fix this gap?]
-   * **Concept Check Challenge**: [Provide a quick 1-sentence thought experiment or conceptual challenge related to this specific topic]
+🎯 Targeted Learning Roadmap
+• Focus Sub-Topic:  [Name of specific physics sub-topic, not a general subject]
+• Actionable Next Step: [What exact problem type, variable mapping, or structural resource should they work on tonight to fix this gap?]
+• Concept Check Challenge: [Provide a quick 1-sentence thought experiment or conceptual challenge related to this specific topic]
 
-### 💡 Advisor's Encouragement
-[Provide a short, motivating, and realistic concluding sentence to inspire confidence]
+💡 Advisor's Encouragement
+• [Provide a short, motivating, and realistic concluding sentence to inspire confidence]
 """

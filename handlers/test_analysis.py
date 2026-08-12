@@ -6,7 +6,7 @@ load_dotenv()
 
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
-    temperature=2.0
+    temperature=1.0
 )
 
 prompt = ChatPromptTemplate.from_template(

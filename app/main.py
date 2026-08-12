@@ -7,10 +7,8 @@ from dotenv import load_dotenv
 
 # Automatically locate and load variables from your local .env file
 load_dotenv()
-
-# Ensure Python knows where to find src/prompts.py
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
-from prompts import ANALYSIS_PROMPT
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.prompts import ANALYSIS_PROMPT
 
 
 def run_automated_pipeline(json_path: str):
@@ -48,14 +46,15 @@ def run_automated_pipeline(json_path: str):
                     "content": final_prompt
                 }
             ],
-            temperature=2.0,
+            temperature=1.0,
             max_tokens=2048,
             top_p=1.0,
             stream=False,
         )
 
         print("Thank you for waiting, we appreciate your patience")
-        print("\n=== ✨ CONSISTENT ADVISOR REMEDIATION OUTPUT ===")
+        print("\n=========================================================== ✨ PERFORMANCE ANALYSIS REPORT =============================================================")
+        print("")
         print(response.choices[0].message.content)
         return response.choices[0].message.content
 
