@@ -33,7 +33,7 @@ def run_automated_pipeline(json_path: str):
 
     print("✅ JSON document loaded successfully!")
 
-    print("📝 Step 2: Preparing consistent prompt structure...")
+    print("📝 Step 2: Preparing consistent prompt structure....")
     final_prompt = ANALYSIS_PROMPT.format(data=extracted_text)
 
     print("🧠 Step 3: Routing text payload directly to openai/gpt-oss-120b...")
